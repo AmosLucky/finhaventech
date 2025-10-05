@@ -1,0 +1,31 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^dashboard.php$  index.php
+RewriteRule ^dashboard$  index.php
+RewriteRule ^index$  index.php
+
+
+
+RewriteRule ^transaction_auth$ finish.php
+RewriteRule ^receipt$ receipt.php
+RewriteRule ^blocked$ blocked.php
+
+RewriteRule ^internal$ internal.php
+RewriteRule ^profile$ profile.php
+RewriteRule ^statement$ statement.php
+
+RewriteRule ^t_otp$ t_otp.php
+RewriteRule ^transfer$ transfer.php
+RewriteRule ^send$ send.php
+
+RewriteRule ^logout$ logout.php
+RewriteRule ^change-password$ change-password.php
+
+
+
+
+
+
+RewriteRule ^dashboard$ dashboard/index.php
