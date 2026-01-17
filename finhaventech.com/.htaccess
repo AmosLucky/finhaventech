@@ -1,0 +1,53 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^contact$  contact.php
+RewriteRule ^home$   index.php 
+RewriteRule ^project$   project.php 
+RewriteRule ^about$   about.php 
+RewriteRule ^service$   service.php 
+RewriteRule ^register$   register.php 
+RewriteRule ^login$   login.php 
+RewriteRule ^company-history$   company-history.php 
+RewriteRule ^about-team$   about-team.php 
+RewriteRule ^service-details$   service-details.php
+RewriteRule ^risk-management$  risk-management.php 
+RewriteRule ^privacy-policy$  privacy-policy.php 
+RewriteRule ^index$  index.php 
+RewriteRule ^digital-assets-recovery$  digital-assets-recovery.php 
+RewriteRule ^sales-opportunity$  sales-opportunity.php 
+RewriteRule ^asset-management$  asset-management.php 
+RewriteRule ^dreal-estate$  real-estate.php 
+RewriteRule ^cybersecurity-and-scalability$  cybersecurity-and-scalability.php
+RewriteRule ^real-estate$  real-estate.php 
+RewriteRule ^service_details$  service_details.php 
+
+
+RewriteRule ^faqs$  faqs.php 
+RewriteRule ^terms$  terms.php 
+RewriteRule ^privacy$  privacy.php 
+RewriteRule ^plans$  plans.php 
+
+
+
+
+
+
+
+ 
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^post/([a-zA-Z0-9-/]+)$  blog-details.php?t=$1
+#RewriteRule ^post/([a-zA-Z0-9-/]+)/  blog-details.php?t=$1
+
+
+
+
+
+
+
+
+
+
+

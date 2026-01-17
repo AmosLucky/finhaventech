@@ -1,0 +1,7 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^login$  login.php
+RewriteRule ^register$   register.php 
+RewriteRule ^recover-password$   recover-password.php 

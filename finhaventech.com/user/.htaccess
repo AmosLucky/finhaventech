@@ -1,0 +1,28 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^index$  index.php
+RewriteRule ^dashboard$   index.php 
+RewriteRule ^deposit$   deposit.php  
+RewriteRule ^deposits$   deposits.php 
+
+RewriteRule ^investment$   investment.php 
+RewriteRule ^investments$   investments.php 
+RewriteRule ^withdrawal$   withdrawal.php 
+RewriteRule ^withdrawals$   withdrawals.php 
+RewriteRule ^cards$   cards.php 
+
+
+RewriteRule ^loans$   loans.php 
+RewriteRule ^membership$   membership.php 
+RewriteRule ^kyc$   kyc.php 
+RewriteRule ^subtrade$   subtrade.php 
+RewriteRule ^referral$   referral.php 
+
+
+RewriteRule ^settings$   settings.php 
+RewriteRule ^deposit_details$   deposit_details.php 
+RewriteRule ^transfer$   transfer.php 
+RewriteRule ^logout$   logout.php 
+# RewriteRule ^referral$   referral.php 
