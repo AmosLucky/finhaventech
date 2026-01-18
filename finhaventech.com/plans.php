@@ -68,9 +68,9 @@ require "header.php";
                                     <li><b>Minimum</b>  $<?= number_format($min) ?></li>
                                     <li><b>Maximum</b>   $<?= number_format($max) ?></li>
                                     <li><b>Daily returns</b> at <?= $daily_profit ?>%</li>
-                                    <li><b>Referral bonus</b> 3%</li>
-                                    <li><b>Contract</b> <?= $profit_after ?> Day(s)</li>
-                                    <li><b>Total</b> <?= $daily_profit ?>%</li>
+                                    <li><b>Referral bonus</b> <?= $referal_bonus ?>%</li>
+                                    <li><b>Contract</b> <?= $capital_after ?> Day(s)</li>
+                                    <!-- <li><b>Total</b>  //$daily_profit ?>%</li> -->
                                 </ul>
                                 <div class="pricing-price">
 
