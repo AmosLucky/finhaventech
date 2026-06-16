@@ -1,0 +1,31 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^contact$  contact.php
+RewriteRule ^home$   index.php 
+RewriteRule ^index$   index.php 
+RewriteRule ^about$   about.php 
+RewriteRule ^about-us$   about.php 
+RewriteRule ^faq$   faq.php 
+RewriteRule ^forget$   forget.php 
+RewriteRule ^login$   login.php 
+RewriteRule ^register$   register.php
+RewriteRule ^signin$   login.php 
+RewriteRule ^signup$   signup.php
+
+RewriteRule ^terms$   terms.php
+RewriteRule ^services$   services.php
+RewriteRule ^swap$   swap.php
+RewriteRule ^give-away$  give-away.php
+RewriteRule ^covid$  covid.php
+RewriteRule ^offer$  offer.php
+RewriteRule ^morenews$  morenews.php
+RewriteRule ^news$  news.php
+RewriteRule ^legal$  legal.php
+RewriteRule ^reviews$  reviews.php
+RewriteRule ^plans$  plans.php
+RewriteRule ^terms-of-services terms-of-services.php
+
+
+
